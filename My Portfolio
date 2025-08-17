@@ -1,4 +1,15 @@
 <!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Portfolio</title>
+  </head>
+  <body>
+    <h1>Hello! My site is working 🎉</h1>
+    <p>Made by Ryan (f1vr)</p>
+  </body>
+</html>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
