@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ryan Rozenblat | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+  <!-- Navbar -->
+  <header class="p-6 flex justify-between items-center">
+    <h1 class="text-2xl font-bold text-blue-400">Ryan Rozenblat</h1>
+    <nav>
+      <a href="#projects" class="mx-3 hover:text-blue-400">Projects</a>
+      <a href="#skills" class="mx-3 hover:text-blue-400">Skills</a>
+      <a href="#contact" class="mx-3 hover:text-blue-400">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Hi, I’m Ryan 👋</h2>
+    <p class="text-lg text-gray-400 max-w-xl mx-auto">
+      Computer Science student & aspiring Cybersecurity Engineer.  
+      I build websites, apps, and scripts — here are some of my projects.
+    </p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-8 text-blue-400">Projects</h3>
+    <div class="grid md:grid-cols-2 gap-8">
+
+      <!-- Example Project Card -->
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-bold mb-2">HelloUser App</h4>
+        <p class="text-gray-400 mb-3">Java console program that prompts users for their name and greets them personally.</p>
+        <a href="https://github.com/yourusername/HelloUser" target="_blank" class="text-blue-400 hover:underline">View Code →</a>
+      </div>
+
+      <div class="bg-gray-800 p-6 rounded-2xl shadow-lg">
+        <h4 class="text-xl font-bold mb-2">Celsius to Fahrenheit Converter</h4>
+        <p class="text-gray-400 mb-3">Simple program converting Celsius temperatures to Fahrenheit in Java.</p>
+        <a href="https://github.com/yourusername/CelsiusToFahrenheit" target="_blank" class="text-blue-400 hover:underline">View Code →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="py-16 px-6 max-w-5xl mx-auto">
+    <h3 class="text-3xl font-bold mb-8 text-blue-400">Skills</h3>
+    <ul class="grid md:grid-cols-2 gap-4 text-gray-300">
+      <li>Python (Intermediate)</li>
+      <li>Java (Fundamentals)</li>
+      <li>Web Development (HTML, CSS, JS)</li>
+      <li>Cybersecurity (Training in progress)</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 px-6 max-w-5xl mx-auto text-center">
+    <h3 class="text-3xl font-bold mb-4 text-blue-400">Contact</h3>
+    <p class="text-gray-400 mb-6">Let’s connect! Reach me at:</p>
+    <p class="text-lg">
+      <a href="mailto:ryangamingpe@gmail.com" class="text-blue-400 hover:underline">ryangamingpe@gmail.com</a>
+    </p>
+    <p class="text-lg">
+      <a href="https://www.linkedin.com/in/ryan-rozenblat-3ba358311/" target="_blank" class="text-blue-400 hover:underline">LinkedIn</a>
+      · 
+      <a href="https://github.com/yourusername" target="_blank" class="text-blue-400 hover:underline">GitHub</a>
+    </p>
+  </section>
+
+  <footer class="text-center py-6 text-gray-500">
+    © 2025 Ryan Rozenblat. All rights reserved.
+  </footer>
+
+</body>
+</html>
